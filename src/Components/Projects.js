@@ -16,7 +16,7 @@ const PROJECTS = [
     utilized: ['React', 'Redux', 'Firebase Firestore', 'Firebase Authentication']
   },
   {
-    projectName: 'React Todo',
+    projectName: 'React Todo Bulma',
     projectDescription:
       'Webapp that I created to serve as an example to a series of 3 articles that was posted on a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/trainingcenter/construindo-uma-aplica%C3%A7%C3%A3o-full-stack-com-react-c1a64db6fc94?source=friends_link&sk=ae6f3bc0ab13a58dbf5b2834843e5712">brazilian Medium page.</a>',
     projectList: [
@@ -25,6 +25,7 @@ const PROJECTS = [
       'Frontend developed with React and Redux fetching data throught Axios'
     ],
     githubLink: 'https://github.com/SamuelPinho/react-todo-bulma',
+    demoLink: 'https://react-todo-bulma.netlify.com/',
     utilized: ['React', 'Redux', 'NodeJs', 'Express', 'MongoLab', 'Mongoose', 'Axios']
   },
   {
