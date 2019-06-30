@@ -1,0 +1,172 @@
+@import '~bulma/bulma.sass';
+
+$github: #6f42c1;
+$medium: #000;
+$linkedin: rgba(14, 118, 168, 1);
+$resume: #0FC476;
+$skills: #D9D9D9;
+$blue: #3273dc;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.is-skill-icons svg {
+  fill: #4a4a4a;
+}
+
+.section.has-background-warning {
+  box-shadow: 0px 6px 34px -17px rgba(0, 0, 0, 0.4);
+}
+
+.box.is-project {
+  border: 1.5px solid #EBEBEB !important;
+  border-radius: 15px;
+  box-shadow: 0 6px 16px 0 #e1e4e7;
+  transition: all .3s ease-in-out;
+}
+
+.button {
+  border-radius: 13px !important;
+  border-width: 2px !important;
+  font-weight: 700 !important;
+  color: white;
+  transition: all .2s ease-in-out;
+
+  &.is-blue {
+    background-color: $blue;
+    border-color: $blue;
+    color: white;
+    box-shadow: 0px 1px 3px 0 $blue;
+
+    &:hover {
+      background-color: white;
+      color: $black;
+
+      & svg {
+        fill: $blue;
+      }
+    }
+
+    & svg {
+      fill: white;
+    }
+  }
+
+  &.is-social-github {
+    background-color: $github;
+    border-color: $github;
+    color: white;
+    box-shadow: 0px 1px 3px 0 $github;
+
+    &:hover {
+      background-color: white;
+      color: $black;
+
+      & svg {
+        fill: $github;
+      }
+    }
+
+    & svg {
+      fill: white;
+    }
+  }
+
+  &.is-social-medium {
+    background-color: $medium;
+    border-color: $medium;
+    color: white;
+    box-shadow: 0px 1px 3px 0 $medium;
+
+    &:hover {
+      background-color: white;
+      color: $black;
+
+      & svg {
+        fill: $medium;
+      }
+    }
+
+    & svg {
+      fill: white;
+    }
+  }
+
+  &.is-social-linkedin {
+    background-color: $linkedin;
+    border-color: $linkedin;
+    color: white;
+    box-shadow: 0px 1px 3px 0 $linkedin;
+
+    &:hover {
+      background-color: white;
+      color: $black;
+
+      & svg {
+        fill: $linkedin;
+      }
+    }
+
+    & svg {
+      fill: white;
+    }
+  }
+
+  &.is-social-resume {
+    background-color: $resume;
+    border-color: $resume;
+    color: white;
+    box-shadow: 0px 1px 3px 0 $resume;
+
+    &:hover {
+      background-color: white;
+      color: $black;
+
+      & svg {
+        fill: $resume;
+      }
+    }
+
+    & svg {
+      fill: white;
+    }
+  }
+
+  &.is-text:hover {
+    background-color: $github !important;
+  }
+}
+
+.is-different-font {
+  font-family: 'Kalam', cursive;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .media-content {
+    overflow: hidden;
+  }
+}
+
+.tag:not(body).is-link {
+  background-color: $skills;
+  color: $black;
+  // border: 1.3px solid $skills;
+  border-radius: 6px;
+  // box-shadow: 0 0 2px $skills;
+}
+
+.column.is-half-desktop .box {
+  height: 100%;
+}
+
+.has-text-centered .buttons {
+  display: block;
+}
+
+.content ul {
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+}
