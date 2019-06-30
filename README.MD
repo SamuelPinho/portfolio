@@ -1,26 +1,19 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b3cd31d2-205f-47fe-a48a-f91d5dd4bc3a/deploy-status)](https://app.netlify.com/sites/sound-manager/deploys)
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my web developer portoflio where I list my projects, links to contact me and a link where you can find my resume as well.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Install npm packages with `npm install`
+2. And run `npm run start` to start the server
+3. And the you're okay to begin with development :)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- React
+- Bulma
+- [Formspree](https://formspree.io/thanks?next=http%3A%2F%2Flocalhost%3A3000%2F) - handles the email system.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+MIT © [Samuel Monteiro](https://samuelmonteiro.netlify.com/)
