@@ -12,7 +12,7 @@ const PROJECTS = [
       'Full table cell editable connected to Firebase and with Redux'
     ],
     githubLink: 'https://github.com/SamuelPinho/finances',
-    demoLink: 'https://finances-a37195.netlify.com/login',
+    demoLink: 'https://finances-a37195.netlify.com',
     utilized: ['React', 'Redux', 'Firebase Firestore', 'Firebase Authentication']
   },
   {
@@ -25,6 +25,7 @@ const PROJECTS = [
       'Frontend developed with React and Redux fetching data throught Axios'
     ],
     githubLink: 'https://github.com/SamuelPinho/react-todo-bulma',
+    demoLink: 'https://react-todo-bulma.netlify.com/',
     utilized: ['React', 'Redux', 'NodeJs', 'Express', 'MongoLab', 'Mongoose', 'Axios']
   },
   {
@@ -37,6 +38,7 @@ const PROJECTS = [
       'Fully working E-Commerce with authentication and role based page'
     ],
     githubLink: 'https://github.com/SamuelPinho/react-todo-bulma',
+    gifSrc: './assets/e-commerce.gif',
     utilized: ['ASP .Net Core 2.0', 'PostgreSQL', 'MVC', 'Chart.Js', 'GoF Dessing Patterns']
   }
 ];
