@@ -12,7 +12,7 @@ const PROJECTS = [
       'Full table cell editable connected to Firebase and with Redux'
     ],
     githubLink: 'https://github.com/SamuelPinho/finances',
-    demoLink: 'https://finances-a37195.netlify.com/login',
+    demoLink: 'https://finances-a37195.netlify.com',
     utilized: ['React', 'Redux', 'Firebase Firestore', 'Firebase Authentication']
   },
   {
