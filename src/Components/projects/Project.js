@@ -10,7 +10,7 @@ class Project extends Component {
       projectDescription,
       projectList,
       githubLink,
-      liveLink,
+      demoLink,
       utilized
     } = this.props;
 
@@ -28,7 +28,7 @@ class Project extends Component {
                     <p className="control">
                       <a
                         className="button is-blue is-small"
-                        href={liveLink}
+                        href={demoLink}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -94,7 +94,7 @@ Project.propTypes = {
   projectDescription: PropTypes.string.isRequired,
   projectList: PropTypes.array.isRequired,
   githubLink: PropTypes.string.isRequired,
-  liveLink: PropTypes.string,
+  demoLink: PropTypes.string,
   utilized: PropTypes.array.isRequired
 };
 
