@@ -139,6 +139,35 @@ body {
   }
 }
 
+.is-dark-link {
+  text-decoration-line: underline;
+  color: $white;
+
+  &:hover {
+    color: $warning;
+  }
+}
+
+.is-footer-icons {
+  margin-top: 1.3rem;
+
+  & a:not(:last-child) {
+    padding-right: .5rem;
+  }
+
+  & a:not(:first-child) {
+    padding-left: .5rem;
+  }
+
+  & a svg {
+    fill: $white;
+  }
+
+  & a:hover svg {
+    fill: $warning;
+  }
+}
+
 .is-different-font {
   font-family: 'Kalam', cursive;
   font-weight: 300;
