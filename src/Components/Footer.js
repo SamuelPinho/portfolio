@@ -1,11 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Icon from '@mdi/react';
-import {
-  mdiGithubCircle,
-  mdiMedium,
-  mdiLinkedin,
-  mdiFileDocumentBoxOutline
-} from '@mdi/js';
+import { mdiGithubCircle, mdiMedium, mdiLinkedin } from '@mdi/js';
 
 class Footer extends Component {
   render() {

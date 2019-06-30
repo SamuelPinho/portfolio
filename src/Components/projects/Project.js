@@ -11,6 +11,7 @@ class Project extends Component {
       projectList,
       githubLink,
       demoLink,
+      gifSrc,
       utilized
     } = this.props;
 
@@ -19,27 +20,35 @@ class Project extends Component {
         <div className="column">
           <div className="box is-project">
             <article class="media">
+              <div class="media-left">
+                <figure class="image is-gif">
+                  <img src={gifSrc} alt="Gif" />
+                </figure>
+              </div>
               <div class="media-content">
                 <div class="content">
                   <p style={{ marginBottom: '.5rem' }}>
                     <strong className="title is-3">{projectName}</strong>
                   </p>
                   <div className="field is-grouped">
-                    <p className="control">
-                      <a
-                        className="button is-blue is-small"
-                        href={demoLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <span className="icon">
-                          <Icon path={mdiEarth} size={2} />
-                        </span>
-                        <span>Demo</span>
-                      </a>
-                    </p>
-                    <p className="control">
-                      {githubLink != null ? (
+                    {demoLink != null ? (
+                      <p className="control">
+                        <a
+                          className="button is-blue is-small"
+                          href={demoLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <span className="icon">
+                            <Icon path={mdiEarth} size={2} />
+                          </span>
+                          <span>Demo</span>
+                        </a>
+                      </p>
+                    ) : null}
+
+                    {githubLink != null ? (
+                      <p className="control">
                         <a
                           className="button is-social-github is-small"
                           href={githubLink}
@@ -51,15 +60,17 @@ class Project extends Component {
                           </span>
                           <span>View Source</span>
                         </a>
-                      ) : (
-                        <Fragment>
-                          <span className="icon">
-                            <Icon path={mdiSourceBranch} size={2} />
-                          </span>
-                          <span>Private Project</span>
-                        </Fragment>
-                      )}
-                    </p>
+                      </p>
+                    ) : (
+                      <Fragment>
+                        <span className="icon">
+                          <Icon path={mdiSourceBranch} size={2} />
+                        </span>
+                        <span>
+                          <em>Private Source</em>
+                        </span>
+                      </Fragment>
+                    )}
                   </div>
                   <p>
                     <div dangerouslySetInnerHTML={{ __html: projectDescription }} />
