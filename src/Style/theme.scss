@@ -74,6 +74,10 @@ body {
     color: white;
     box-shadow: 0px 1px 3px 0 $github;
 
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+
     &:hover {
       background-color: white;
       color: $black;
@@ -93,6 +97,10 @@ body {
     border-color: $medium;
     color: white;
     box-shadow: 0px 1px 3px 0 $medium;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
 
     &:hover {
       background-color: white;
@@ -114,6 +122,10 @@ body {
     color: white;
     box-shadow: 0px 1px 3px 0 $linkedin;
 
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+
     &:hover {
       background-color: white;
       color: $black;
@@ -133,6 +145,10 @@ body {
     border-color: $resume;
     color: white;
     box-shadow: 0px 1px 3px 0 $resume;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
 
     &:hover {
       background-color: white;

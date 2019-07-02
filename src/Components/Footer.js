@@ -13,6 +13,13 @@ class Footer extends Component {
                 <p>
                   <span>Developed by Samuel Monteiro.</span>
                   <br />
+                  <span className="has-text-weight-light">
+                    <a className="is-dark-link" href="mailto:samuel.pinho@fatec.sp.gov.br">
+                      samuel.pinho@fatec.sp.gov.br
+                    </a>
+                  </span>
+                  <br />
+                  <br />
                   <span>
                     <a
                       className="is-dark-link"

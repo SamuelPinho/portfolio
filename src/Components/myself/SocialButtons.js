@@ -1,11 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Icon from '@mdi/react';
-import {
-  mdiGithubCircle,
-  mdiMedium,
-  mdiLinkedin,
-  mdiFileDocumentBoxOutline
-} from '@mdi/js';
+import { mdiGithubCircle, mdiMedium, mdiLinkedin, mdiFileDocument } from '@mdi/js';
 
 class SocialButtons extends Component {
   render() {
@@ -57,7 +52,7 @@ class SocialButtons extends Component {
             target="_blank"
           >
             <span className="icon">
-              <Icon path={mdiFileDocumentBoxOutline} size={2} />
+              <Icon path={mdiFileDocument} size={2} />
             </span>
             <span>my resume</span>
           </a>
