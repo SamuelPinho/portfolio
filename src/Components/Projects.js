@@ -13,6 +13,7 @@ const PROJECTS = [
     ],
     githubLink: 'https://github.com/SamuelPinho/finances',
     demoLink: 'https://finances-a37195.netlify.com',
+    gifSrc: './assets/finances.gif',
     utilized: ['React', 'Redux', 'Firebase Firestore', 'Firebase Authentication']
   },
   {
@@ -26,6 +27,7 @@ const PROJECTS = [
     ],
     githubLink: 'https://github.com/SamuelPinho/react-todo-bulma',
     demoLink: 'https://react-todo-bulma.netlify.com/',
+    gifSrc: './assets/react-todo-bulma.gif',
     utilized: ['React', 'Redux', 'NodeJs', 'Express', 'MongoLab', 'Mongoose', 'Axios']
   },
   {

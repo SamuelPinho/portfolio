@@ -19,13 +19,13 @@ class Project extends Component {
       <Fragment>
         <div className="column">
           <div className="box is-project">
-            <article class="media">
-              <div class="media-left">
+            <div className="columns has-text-left">
+              <div className="column is-narrow">
                 <figure class="image is-gif">
                   <img src={gifSrc} alt="Gif" />
                 </figure>
               </div>
-              <div class="media-content">
+              <div className="column">
                 <div class="content">
                   <p style={{ marginBottom: '.5rem' }}>
                     <strong className="title is-3">{projectName}</strong>
@@ -92,7 +92,7 @@ class Project extends Component {
                   ))}
                 </div>
               </div>
-            </article>
+            </div>
           </div>
         </div>
       </Fragment>
