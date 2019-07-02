@@ -36,7 +36,7 @@ class SocialButtons extends Component {
           </a>
           <a
             className="button is-social-linkedin"
-            href="https://www.linkedin.com/in/samuelmpinho/"
+            href="https://br.linkedin.com/in/samuelmpinho/en?trk=public_profile_locale_name"
             rel="noopener noreferrer"
             target="_blank"
           >
