@@ -28,6 +28,19 @@ export const projects = [
     utilized: ['React', 'Redux', 'NodeJs', 'Express', 'MongoLab', 'Mongoose', 'Axios']
   },
   {
+    projectName: 'React Firebase Auth Boilerplate',
+    projectDescription:
+      'React boilerplate created to provide firebase authentication and firestore already configured for use with Redux to handle user sessions',
+    projectList: [
+      'Used Firebase for user authentication',
+      'Creates a firestore database to handle user data',
+      'Utilized Redux to handle user sessions',
+      'Uses HOC to route authorization alongside with redux'
+    ],
+    githubLink: 'https://github.com/SamuelPinho/react-firebase-auth-boilerplate',
+    utilized: ['React', 'Firebase', 'Firestore', 'Redux', 'HOC', 'React router']
+  },
+  {
     projectName: 'E-Commerce of Books',
     projectDescription: 'Website created to be my final work for my graduation.',
     projectList: [

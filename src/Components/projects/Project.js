@@ -20,11 +20,13 @@ class Project extends Component {
         <div className="column">
           <div className="box is-project">
             <div className="columns has-text-left">
-              <div className="column is-narrow">
-                <figure class="image is-gif">
-                  <img src={gifSrc} alt="Gif" />
-                </figure>
-              </div>
+              {gifSrc ? (
+                <div className="column is-narrow">
+                  <figure class="image is-gif">
+                    <img src={gifSrc} alt="Gif" />
+                  </figure>
+                </div>
+              ) : null}
               <div className="column">
                 <div class="content">
                   <p style={{ marginBottom: '.5rem' }}>
